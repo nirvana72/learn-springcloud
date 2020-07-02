@@ -26,6 +26,7 @@
         <module>nacos-provider-payment9002</module>
         <module>nacos-consumer-order80</module>
         <module>nacos-config-client3377</module>
+        <module>nacos-sentinel-service8401</module>
     </modules>
 
     <!-- maven 国内镜像 -->

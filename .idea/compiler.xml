@@ -13,6 +13,7 @@
         <module name="cloud-eureka-server7001" />
         <module name="cloud-hystrix-dashboard9001" />
         <module name="cloud-api-commons" />
+        <module name="nacos-sentinel-service8401" />
         <module name="nacos-provider-payment9001" />
         <module name="nacos-config-client3377" />
         <module name="cloud-provider-payment8002" />
