@@ -13,12 +13,16 @@
         <module name="cloud-eureka-server7001" />
         <module name="cloud-hystrix-dashboard9001" />
         <module name="cloud-api-commons" />
-        <module name="cloud-consumer-consul-order80" />
+        <module name="nacos-provider-payment9001" />
+        <module name="nacos-config-client3377" />
         <module name="cloud-provider-payment8002" />
         <module name="cloud-provider-payment8001" />
+        <module name="nacos-provider-payment9002" />
         <module name="cloud-consumer-feign-hystrix-order80" />
         <module name="cloud-gateway9527" />
         <module name="cloud-provicer-consul-payment8006" />
+        <module name="cloud-consumer-consul-order80" />
+        <module name="nacos-consumer-order80" />
         <module name="cloud-config-center3344" />
         <module name="cloud-consumer-feign-order80" />
         <module name="cloud-config-client3355" />

@@ -1,0 +1,19 @@
+server:
+  port: 3377
+
+spring:
+  application:
+    name: config-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        namespace: prod
+        group: MY_GROUP_1 # 分组配置
+
+# nacos 上创建配置
+# {服务名}-{环境}.{后缀}
+# config-client-dev.yaml

@@ -22,6 +22,10 @@
         <module>cloud-gateway9527</module>
         <module>cloud-config-center3344</module>
         <module>cloud-config-client3355</module>
+        <module>nacos-provider-payment9001</module>
+        <module>nacos-provider-payment9002</module>
+        <module>nacos-consumer-order80</module>
+        <module>nacos-config-client3377</module>
     </modules>
 
     <!-- maven 国内镜像 -->
@@ -130,6 +134,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+            <version>2.2.1.RELEASE</version>
+            <type>pom</type>
+            <scope>import</scope>
         </dependency>
     </dependencies>
 </project>
